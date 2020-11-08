@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const el = (
+    <div>
+        <h1>My Todo list</h1>
+        <input type="text" placeholder='search'/>
+        <ul>
+            <li>Learn React</li>
+            <li>Build Awesome App</li>
+        </ul>
+    </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+console.log(el)
+ReactDOM.render(el, document.getElementById('root'));
