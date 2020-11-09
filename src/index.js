@@ -4,12 +4,11 @@ import TodoList from "./components/todo-list";
 import AppHeader from "./components/app-header";
 import SearchPanel from "./components/search-panel";
 
-
 const el = (
     <div>
-        <AppHeader/>
-        <SearchPanel/>
-        <TodoList/>
+        <AppHeader />
+        <SearchPanel />
+        <TodoList />
     </div>
 );
 
