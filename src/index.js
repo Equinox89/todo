@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TodoList from "./components/todo-list";
+import AppHeader from "./components/app-header";
+import SearchPanel from "./components/search-panel";
+
 
 const el = (
     <div>
-        <h1>My Todo list</h1>
-        <input type="text" placeholder='search'/>
-        <ul>
-            <li>Learn React</li>
-            <li>Build Awesome App</li>
-        </ul>
+        <AppHeader/>
+        <SearchPanel/>
+        <TodoList/>
     </div>
 );
 
