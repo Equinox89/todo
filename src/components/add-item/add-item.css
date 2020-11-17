@@ -2,3 +2,12 @@
     margin-top: 10px;
 
 }
+
+.add-item input {
+    margin-right: 3px;
+}
+
+
+.add-item .btn {
+    white-space: nowrap;
+}
